@@ -1,8 +1,0 @@
-train: D:/Data_Science_Analytics/YOLO_Example/images/train
-val: D:/Data_Science_Analytics/YOLO_Example/images/valid
-names:
-  0: Plantago lanceolata - White
-  1: Dandelion or similar - yellow
-  2: White feather spike
-  3: bouquet white flower
-path: .
