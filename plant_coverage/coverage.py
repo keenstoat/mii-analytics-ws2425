@@ -79,11 +79,6 @@ def get_greens_mask(image):
     # mask = 255 - cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
 
     return mask
-    ## apply mask and leave the greens
-    bool_mask = mask > 0
-    green = np.zeros_like(image, np.uint8)
-    green[bool_mask] = image[bool_mask]
-    return green
 
 def get_plant_coverage(image, area_mask, greens_mask):
 
@@ -161,16 +156,17 @@ def create_analytics_result(processed_images_list):
 
     coverages_list = [item["coverage"] for item in processed_images_list]
     results_dict = {
-        "count": len(coverages_list),
-        "average": np.average(coverages_list),
-        "std_dev": np.std(coverages_list),
-        "max": np.max(coverages_list),
-        "min": np.min(coverages_list),
+        "stats": {
+            "count": len(coverages_list),
+            "average": np.average(coverages_list),
+            "std_dev": np.std(coverages_list),
+            "max": np.max(coverages_list),
+            "min": np.min(coverages_list),
+        },
         "processed_images": processed_images_list,
     }
     return results_dict
     
-
 def process_dir_or_image(source_dir_or_filename, dest_dir=None, limit=-1):
 
     dest_dir = check_or_create_destination_dir(dest_dir)
@@ -185,16 +181,14 @@ def process_dir_or_image(source_dir_or_filename, dest_dir=None, limit=-1):
         return
 
     processed_images_list = []
-    print()
     for index, src_filepath in enumerate(image_filename_list):
 
         image, coverage = process_image(src_filepath)
-        dest_filepath = os.path.join(dest_dir, os.path.basename(src_filepath))
-        dest_filepath = os.path.abspath(dest_filepath)
+        image_filename = os.path.basename(src_filepath)
+        dest_filepath = os.path.join(dest_dir, image_filename)
 
         processed_images_list.append({
-            "source_image": src_filepath,
-            "result_image" : dest_filepath,
+            "image_filename": os.path.basename(src_filepath),
             "coverage": coverage
         })
         
@@ -238,6 +232,10 @@ if __name__ == "__main__":
             case "-l":
                 _limit = int(_args.pop(0))
             case "-h":
+                print(_usage_text)
+                exit(1)
+            case _:
+                print("Unrecognized option: ", arg)
                 print(_usage_text)
                 exit(1)
     

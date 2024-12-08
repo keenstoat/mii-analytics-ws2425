@@ -1,0 +1,347 @@
+{
+    "stats": {
+        "count": 84,
+        "average": 56.10726570906062,
+        "std_dev": 14.78754057685497,
+        "max": 80.94714153010885,
+        "min": 23.925361644228015
+    },
+    "processed_images": [
+        {
+            "image_filename": "20240521_113036.jpg",
+            "coverage": 61.776393612302236
+        },
+        {
+            "image_filename": "20240521_113044.jpg",
+            "coverage": 61.54297410791534
+        },
+        {
+            "image_filename": "20240521_113118.jpg",
+            "coverage": 60.19040113201802
+        },
+        {
+            "image_filename": "20240521_113133.jpg",
+            "coverage": 61.27034106607819
+        },
+        {
+            "image_filename": "20240521_113206.jpg",
+            "coverage": 59.83334164509387
+        },
+        {
+            "image_filename": "20240521_113216.jpg",
+            "coverage": 58.45420244482849
+        },
+        {
+            "image_filename": "20240521_113228.jpg",
+            "coverage": 50.20672322813369
+        },
+        {
+            "image_filename": "20240521_113252.jpg",
+            "coverage": 57.47065317801861
+        },
+        {
+            "image_filename": "20240521_113310.jpg",
+            "coverage": 41.40263891537491
+        },
+        {
+            "image_filename": "20240521_113318.jpg",
+            "coverage": 32.26157612614889
+        },
+        {
+            "image_filename": "20240521_113343.jpg",
+            "coverage": 23.925361644228015
+        },
+        {
+            "image_filename": "20240521_113401.jpg",
+            "coverage": 29.914510746707812
+        },
+        {
+            "image_filename": "20240521_113409.jpg",
+            "coverage": 41.83361247798219
+        },
+        {
+            "image_filename": "20240521_113415.jpg",
+            "coverage": 38.15592972507902
+        },
+        {
+            "image_filename": "20240521_113429.jpg",
+            "coverage": 28.72574275220395
+        },
+        {
+            "image_filename": "20240521_113434.jpg",
+            "coverage": 46.25388721704942
+        },
+        {
+            "image_filename": "20240521_113443.jpg",
+            "coverage": 57.18037537639521
+        },
+        {
+            "image_filename": "20240521_113449.jpg",
+            "coverage": 61.84249985005698
+        },
+        {
+            "image_filename": "20240521_113459.jpg",
+            "coverage": 66.24543872709089
+        },
+        {
+            "image_filename": "20240521_113517.jpg",
+            "coverage": 55.97335683844176
+        },
+        {
+            "image_filename": "20240521_114500.jpg",
+            "coverage": 76.32030933860888
+        },
+        {
+            "image_filename": "20240521_114509.jpg",
+            "coverage": 68.40842260268057
+        },
+        {
+            "image_filename": "20240521_114516.jpg",
+            "coverage": 72.02343713525374
+        },
+        {
+            "image_filename": "20240521_114525.jpg",
+            "coverage": 77.77798077977126
+        },
+        {
+            "image_filename": "20240521_114544.jpg",
+            "coverage": 72.16804233916899
+        },
+        {
+            "image_filename": "20240521_114552.jpg",
+            "coverage": 64.95602647553572
+        },
+        {
+            "image_filename": "20240521_114607.jpg",
+            "coverage": 54.285792717240625
+        },
+        {
+            "image_filename": "20240521_114618.jpg",
+            "coverage": 71.87226382808507
+        },
+        {
+            "image_filename": "20240521_115346.jpg",
+            "coverage": 57.134679672116135
+        },
+        {
+            "image_filename": "20240521_115354.jpg",
+            "coverage": 51.367456614874776
+        },
+        {
+            "image_filename": "20240521_115406.jpg",
+            "coverage": 36.30416602972781
+        },
+        {
+            "image_filename": "20240521_115416.jpg",
+            "coverage": 43.981782693558884
+        },
+        {
+            "image_filename": "20240521_115424.jpg",
+            "coverage": 57.02505800464037
+        },
+        {
+            "image_filename": "20240521_115430.jpg",
+            "coverage": 47.61206244996713
+        },
+        {
+            "image_filename": "20240521_115439.jpg",
+            "coverage": 40.77554445626175
+        },
+        {
+            "image_filename": "20240521_115444.jpg",
+            "coverage": 63.222750994321444
+        },
+        {
+            "image_filename": "20240521_115536.jpg",
+            "coverage": 28.563444800732935
+        },
+        {
+            "image_filename": "20240521_115545.jpg",
+            "coverage": 26.18679315094752
+        },
+        {
+            "image_filename": "20240521_115556.jpg",
+            "coverage": 32.68456678700361
+        },
+        {
+            "image_filename": "20240521_115608.jpg",
+            "coverage": 44.23981669370766
+        },
+        {
+            "image_filename": "20240521_115615.jpg",
+            "coverage": 37.755677939101545
+        },
+        {
+            "image_filename": "20240521_115629.jpg",
+            "coverage": 27.8196611519386
+        },
+        {
+            "image_filename": "20240521_115637.jpg",
+            "coverage": 31.339930704952558
+        },
+        {
+            "image_filename": "20240521_115644.jpg",
+            "coverage": 31.504469963939403
+        },
+        {
+            "image_filename": "20240521_115652.jpg",
+            "coverage": 55.13535323894065
+        },
+        {
+            "image_filename": "20240521_115658.jpg",
+            "coverage": 53.39727959511968
+        },
+        {
+            "image_filename": "20240521_115708.jpg",
+            "coverage": 59.52966800630633
+        },
+        {
+            "image_filename": "20240521_115736.jpg",
+            "coverage": 60.12088807276688
+        },
+        {
+            "image_filename": "20240521_115957.jpg",
+            "coverage": 74.58822653589176
+        },
+        {
+            "image_filename": "20240521_120003.jpg",
+            "coverage": 69.31890225268987
+        },
+        {
+            "image_filename": "20240521_120010.jpg",
+            "coverage": 65.62580562000515
+        },
+        {
+            "image_filename": "20240521_120019.jpg",
+            "coverage": 61.33865620768548
+        },
+        {
+            "image_filename": "20240521_120035.jpg",
+            "coverage": 60.81859087848233
+        },
+        {
+            "image_filename": "20240521_120056.jpg",
+            "coverage": 72.1522014792352
+        },
+        {
+            "image_filename": "20240521_120106.jpg",
+            "coverage": 67.82690964791746
+        },
+        {
+            "image_filename": "20240521_120115.jpg",
+            "coverage": 65.69328100287036
+        },
+        {
+            "image_filename": "20240521_120346.jpg",
+            "coverage": 64.06796488932012
+        },
+        {
+            "image_filename": "20240521_120353.jpg",
+            "coverage": 66.92424010584963
+        },
+        {
+            "image_filename": "20240521_120359.jpg",
+            "coverage": 66.25971636437977
+        },
+        {
+            "image_filename": "20240521_120405.jpg",
+            "coverage": 80.94714153010885
+        },
+        {
+            "image_filename": "20240521_120420.jpg",
+            "coverage": 78.34814172716437
+        },
+        {
+            "image_filename": "20240521_120430.jpg",
+            "coverage": 77.09578642821907
+        },
+        {
+            "image_filename": "20240521_120438.jpg",
+            "coverage": 67.4702463452651
+        },
+        {
+            "image_filename": "20240521_120446.jpg",
+            "coverage": 70.82840051643801
+        },
+        {
+            "image_filename": "20240521_120455.jpg",
+            "coverage": 65.41046012005499
+        },
+        {
+            "image_filename": "20240521_120501.jpg",
+            "coverage": 68.8517711022523
+        },
+        {
+            "image_filename": "20240521_120511.jpg",
+            "coverage": 61.84440443139585
+        },
+        {
+            "image_filename": "20240521_120527.jpg",
+            "coverage": 57.78402207871463
+        },
+        {
+            "image_filename": "20240521_120537.jpg",
+            "coverage": 67.4994506039048
+        },
+        {
+            "image_filename": "20240521_120548.jpg",
+            "coverage": 58.13887410587843
+        },
+        {
+            "image_filename": "20240521_120557.jpg",
+            "coverage": 57.73216580976864
+        },
+        {
+            "image_filename": "20240521_120615.jpg",
+            "coverage": 60.57695324581023
+        },
+        {
+            "image_filename": "20240521_120637.jpg",
+            "coverage": 44.74575030649027
+        },
+        {
+            "image_filename": "20240521_120647.jpg",
+            "coverage": 68.92685217799695
+        },
+        {
+            "image_filename": "20240521_120659.jpg",
+            "coverage": 43.929514118014794
+        },
+        {
+            "image_filename": "20240521_120715.jpg",
+            "coverage": 43.41612435574377
+        },
+        {
+            "image_filename": "20240521_120723.jpg",
+            "coverage": 38.92558622870826
+        },
+        {
+            "image_filename": "20240521_120728.jpg",
+            "coverage": 47.01868443322095
+        },
+        {
+            "image_filename": "20240521_120739.jpg",
+            "coverage": 41.3990277062707
+        },
+        {
+            "image_filename": "20240521_120744.jpg",
+            "coverage": 41.37206359177113
+        },
+        {
+            "image_filename": "20240521_120753.jpg",
+            "coverage": 72.51402253549136
+        },
+        {
+            "image_filename": "20240521_120759.jpg",
+            "coverage": 79.57691009339484
+        },
+        {
+            "image_filename": "20240521_120810.jpg",
+            "coverage": 66.2988824902155
+        },
+        {
+            "image_filename": "20240521_120831.jpg",
+            "coverage": 79.77130144605117
+        }
+    ]
+}
