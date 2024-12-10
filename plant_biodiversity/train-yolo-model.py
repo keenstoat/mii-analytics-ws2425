@@ -151,7 +151,7 @@ if __name__ == "__main__":
     _yolo_dataset_dir = f"{_base_dir_path}/yolo-dataset"
     _yolo_config_filepath = f"{_yolo_dataset_dir}/data.yaml"
 
-    _results_dir = f"{_base_dir_path}/project-results"
+    _results_dir = f"{_base_dir_path}/train-validate-results"
     _created_model_filepath = f"{_results_dir}/yolov8_model.pt"
 
     _yolo_train_parameters = {
@@ -168,9 +168,3 @@ if __name__ == "__main__":
     create_yolo_dataset(_original_dataset_dir, _yolo_dataset_dir, _yolo_config_filepath)
     train_model(_yolo_train_parameters, _created_model_filepath)
     validate_model(_yolo_train_parameters, _created_model_filepath)
-
-
-
-
-
-
